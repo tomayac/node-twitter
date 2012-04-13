@@ -1,5 +1,12 @@
 # node-twitter Release Notes
 
+## Version 0.4.5
+
+*Published on 2012-04-13*
+
+* [FIXED] [Issue #2 SyntaxError: unexpected end of input](https://github.com/iStrategyLabs/node-twitter/issues/2)
+* [FIXED] Improved stability 
+
 ## Version 0.4.4
 
 *Published on 2012-04-10*
