@@ -1,5 +1,11 @@
 # node-twitter Release Notes
 
+## Version 0.4.6
+
+*Published on 2012-04-19*
+
+* [FIXED] [Issue #6 StreamClient crashes on response data contains with terminator but no stream object.](https://github.com/istrategylabs/node-twitter/issues/6).
+
 ## Version 0.4.5
 
 *Published on 2012-04-13*
