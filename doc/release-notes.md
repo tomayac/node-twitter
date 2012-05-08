@@ -1,5 +1,15 @@
 # node-twitter Release Notes
 
+## Version 0.5.0
+
+*Published on 2012-05-08*
+
+* [FEATURE] Added full support for the following [Twitter REST API](https://dev.twitter.com/docs/api) endpoints:
+  * [Direct Messages](https://dev.twitter.com/docs/api#direct-messages)
+* [FEATURE] Added partial support for the following [Twitter REST API](https://dev.twitter.com/docs/api) endpoints:
+  * [Friends & Followers](https://dev.twitter.com/docs/api#friends-followers)
+  * [Users](https://dev.twitter.com/docs/api#users)
+
 ## Version 0.4.6
 
 *Published on 2012-04-19*
