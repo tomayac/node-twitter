@@ -8,7 +8,7 @@ node-twitter is a node.js module for interacting with the Twitter API.
 
 The Twitter REST API can be accessed using Twitter.RestClient. The following code example shows how to retrieve tweets from the authenticated user's timeline.
 
-    var Twitter = require('../lib/Twitter');
+    var Twitter = require('node-twitter');
 
     var twitterRestClient = new Twitter.RestClient(
         'CONSUMER_KEY',
@@ -33,7 +33,7 @@ The Twitter REST API can be accessed using Twitter.RestClient. The following cod
 
 The Twitter Search API can be accessed using Twitter.SearchClient. The following code example shows how to search for tweets containing the keyword "node.js".
 
-    var Twitter = require('../lib/Twitter');
+    var Twitter = require('node-twitter');
 
     var twitterSearchClient = new Twitter.SearchClient(
         'CONSUMER_KEY',
@@ -58,7 +58,7 @@ The Twitter Search API can be accessed using Twitter.SearchClient. The following
 
 The Twitter Streaming API can be accessed using Twitter.StreamClient. The following code example shows how to catch all tweets containing the keywords "baseball", "basketball", "football" or "hockey".
 
-    var Twitter = require('../lib/Twitter');
+    var Twitter = require('node-twitter');
 
     var twitterStreamClient = new Twitter.StreamClient(
         'CONSUMER_KEY',
@@ -86,7 +86,7 @@ The Twitter Streaming API can be accessed using Twitter.StreamClient. The follow
 
 Tweets with attached image media (JPG, PNG or GIF) can be posted using the upload API endpoint.
 
-    var Twitter = require('../lib/Twitter');
+    var Twitter = require('node-twitter');
 
     var twitterRestClient = new Twitter.RestClient(
         'CONSUMER_KEY',
