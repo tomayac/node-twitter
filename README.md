@@ -117,7 +117,7 @@ twitterRestClient..statusesUpdateWithMedia(
         {
             console.log(result);
         }
-    );
+    )
 });
 ```
 
