@@ -107,7 +107,7 @@ twitterRestClient..statusesUpdateWithMedia(
         'status': 'Posting a tweet w/ attached media.',
         'media[]': '/some/absolute/file/path.jpg'
     },
-    function(error, result) {}
+    function(error, result) {
         if (error)
         {
             console.log('Error: ' + (error.code ? error.code + ' ' + error.message : error.message));
@@ -117,8 +117,8 @@ twitterRestClient..statusesUpdateWithMedia(
         {
             console.log(result);
         }
-    )
-});
+    }
+);
 ```
 
 # License
